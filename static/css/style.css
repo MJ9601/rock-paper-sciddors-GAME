@@ -1,0 +1,63 @@
+
+.container {
+    width: 80%;
+    margin: auto;
+    border: 2px solid black;
+    text-align: center;
+    display: flexbox;
+    padding: 0px !important;
+
+}
+.container h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+.game-container-img,
+ #displayResult{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: inherit;
+    justify-content: space-around;
+    padding: 30px;
+}
+.game-container-img .start-img {
+    -webkit-box-shadow: -17px  24px 29px -4px rgba(0,0,0,0.55);
+    -moz-box-shadow: -17px 24px 29px -4px rgba(0,0,0,0.55);
+    box-shadow: -17px  24px 29px -4px rgba(0,0,0,0.55);
+
+}
+.game-container-img img:hover {
+    -webkit-box-shadow: -5px  5px 19px -4px rgba(22, 67, 216, 0.55), 5px -5px 19px -4px rgba(22, 67, 216, 0.55);
+    -moz-box-shadow: 52px 5px 19px -4px rgba(22, 67, 216, 0.55), 5px -5px 19px -4px rgba(22, 67, 216, 0.55);
+    box-shadow: -5px  5px 19px -4px rgba(22, 67, 216, 0.55), 5px -5px 19px -4px rgba(22, 67, 216, 0.55);
+
+}
+#displayResult{
+    padding: 0px;
+}
+#displayResult #divButton {
+    width: 100%;
+    padding-top: 20px;
+}
+
+#Draw,
+#user-is-winner,
+#user-is-losser {
+    color: black;
+    margin: auto;
+    font-weight: bold;
+}
+#user-is-winner {
+    color: green;
+
+}
+#user-is-losser {
+    color: red;
+}
+.game-container-img .resultImg:hover {
+    -webkit-box-shadow: -5px  5px 19px -4px rgba(255, 9, 144, 0.55), 5px -5px 19px -4px rgba(255, 9, 144, 0.55);
+    -moz-box-shadow: 52px 5px 19px -4px rgba(255, 9, 144, 0.55), 5px -5px 19px -4px rgba(255, 9, 144, 0.55);
+    box-shadow: -5px  5px 19px -4px rgba(255, 9, 144, 0.55), 5px -5px 19px -4px rgba(255, 9, 144, 0.55);
+}
+
